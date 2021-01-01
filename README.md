@@ -1,14 +1,14 @@
-# jsend-mw [![NPM](https://img.shields.io/npm/v/@zishone/jsend-mw)](https://www.npmjs.com/package/@zishone/jsend-mw) [![Build](https://github.com/zishone/jsend-mw/workflows/build/badge.svg)](https://github.com/zishone/jsend-mw/actions?query=workflow%3Abuild) [![Coverage](https://codecov.io/gh/zishone/jsend-mw/branch/main/graph/badge.svg?token=bP9dagN3Gs)](https://codecov.io/gh/zishone/jsend-mw) [![License](https://img.shields.io/github/license/zishone/jsend-mw)](https://github.com/zishone/jsend-mw/blob/master/LICENSE)
-A middleware to add jsend helper functions to the response object.
+# jasenda [![NPM](https://img.shields.io/npm/v/@zishone/jasenda)](https://www.npmjs.com/package/@zishone/jasenda) [![Build](https://github.com/zishone/jasenda/workflows/build/badge.svg)](https://github.com/zishone/jasenda/actions?query=workflow%3Abuild) [![Coverage](https://codecov.io/gh/zishone/jasenda/branch/main/graph/badge.svg?token=bP9dagN3Gs)](https://codecov.io/gh/zishone/jasenda) [![License](https://img.shields.io/github/license/zishone/jasenda)](https://github.com/zishone/jasenda/blob/master/LICENSE)
+A middleware to add [jsend](https://github.com/omniti-labs/jsend) helper functions to the response object.
 
 ## Installation
 ```shell
-$ npm i @zishone/jsend-mw
+$ npm i @zishone/jasenda
 ```
 ## Usage
 ```javascript
 const express = require('express');
-const { jsend } = require('@zishone/jsend-mw');
+const { jsend } = require('@zishone/jasenda');
 
 const app = express();
 
@@ -34,7 +34,7 @@ app.listen(port, () => {
 ## Authors
 * **Zishran Garces**
 
-See also the list of [contributors](https://github.com/zishone/jsend-mw/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/zishone/jasenda/contributors) who participated in this project.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/zishone/jsend-mw/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/zishone/jasenda/blob/master/LICENSE) file for details.

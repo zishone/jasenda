@@ -1,7 +1,7 @@
 import { afterEach, it } from 'mocha';
 import { createSandbox } from 'sinon';
 import { expect } from 'chai';
-import { jsend } from '../../src/index';
+import { jsend } from '../../src/jsend';
 
 export default (): void => {
   const sandbox = createSandbox();

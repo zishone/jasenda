@@ -1,6 +1,6 @@
-import { NextFunction, Request, Response } from 'express';
+import { NextFunction, Request, RequestHandler, Response } from 'express';
 
-export const jsend = (): any => {
+export const jsend = (): RequestHandler => {
   return (_req: Request, res: Response, next: NextFunction): void => {
     res.jsend = {
       success: (data: any, statusCode: number = 200): void => {
